@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
+
+
+* {
+    font-family: "Merriweather", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* banner section styles*/
+.banner {
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+
+    margin: 50px auto;
+    background-image: url('../resources/images/Banner\ Image.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.banner h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+/*Offer Section styles*/
+.offer-section {
+    width: 802.9px;
+    height: 806px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.offer-section h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer-section h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer-section h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.offer-section img {
+    border: 1px solid rgba(175, 173, 173, 0.864);
+    border-style: dashed;
+}
+
+/*Party Section Styles*/
+
+.party-section {
+    width: 1320px;
+    height: 600px;
+    margin: 40px auto;
+    display: flex;
+    background-image: url(../resources/images/Vectorrr.png);
+    background-color: rgb(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+
+}
+
+.left-side-party {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left-side-party-content {
+    width: 697px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-side-party {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side-party-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.left-side-party-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.left-side-party-content span {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* Schedule Section styles */
+
+.schedule-section {
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.schedule-section h3 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+
+
+}
+
+.text-primary {
+    color: red;
+}
+
+.schedule-section button {
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 16px 32px 16px 32px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+/*Comming Soon Section styles*/
+
+.comming-soon {
+    width: 1320px;
+    height: 463px;
+    margin: 100px auto;
+    display: flex;
+}
+
+.comming-soon-left,
+.comming-soon-right {
+    width: 30%;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.comming-soon-right img {
+    width: 140px;
+    height: 132.79px;
+    border: 1px solid rgba(175, 173, 173, 0.864);
+    border-style: dashed;
+
+
+}
+
+.comming-soon-middle {
+    width: 39%;
+    height: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.comming-soon-middle img {
+    border: 1px solid rgba(175, 173, 173, 0.864);
+    border-style: dashed;
+    width: 364.84px;
+    height: 364.84px;
+
+
+}
+
+.circle {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    border: 12px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.comming-soon-left h4 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.comming-soon-left h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.comming-soon-left p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.comming-soon-right h3 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.comming-soon-right p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+/* Holyday Sells Styles*/
+.holyday-sells{
+    width: 1320px;
+height: 986.07px;
+border-radius: 16px 0px 16px 16px;
+margin: 40px auto;
+display: flex;
+flex-direction: column;
+gap: 35px;
+}
+.holyday-discount{
+    width: 1320px;
+height: 662.07px;
+background-image: url('../resources/images/Rectangle 2.png');
+background-repeat: no-repeat;
+background-position: bottom;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 40px;
+
+
+
+}
+.holyday-discount img{
+    border: 1px solid rgba(175, 173, 173, 0.864);
+    border-style: dashed;
+
+}
+.holyday-sells h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 29px;
+}
+.holyday-sells h1{
+    font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+text-align: center;
+line-height: 91px;
+}
+.holyday-sells p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/*Best Gift Styles*/
+.best-gift{
+    width: 1320px;
+    height: 1163px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gift-card{
+display: flex;
+flex-wrap: wrap;
+gap: 21px;
+
+}
+.card{
+    width: 424px;
+height: 450px;
+border: 1px solid rgba(175, 173, 173, 0.864);
+    border-style: dashed;
+}
+.gift-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.gift-content h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.gift-content h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+}
+.gift-content p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+
+/*Subscribe section styles*/
+.subscribe{
+    width: 1320px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 25px;
+margin: 40px auto;
+}
+.subscribe img{
+    border: 1px solid rgba(175, 173, 173, 0.864);
+    border-style: dashed;
+    width: 150px;
+height: 150px;
+}
+.subscribe h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+text-align: center;
+}
+.subscribe p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.subscribe input{
+    display: inline;
+    width: 550px;
+height: 60px;
+border: none;
+border-radius: 50px 0px 0px 50px;
+font-size: 16px;
+}
+.subscribe button{
+    width: 150px;
+    height: 60px;
+    border: none;
+border-radius: 0px 50px 50px 0px;
+font-size: 16px;
+color: white;
+background-color: red;
+}
+
+/*Footer*/
+footer{
+    height: 609px;
+    background: rgb(7, 2, 17);
+    color: white;
+}
